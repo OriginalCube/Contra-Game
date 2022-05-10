@@ -11,7 +11,6 @@ const IntroMenu = (props) => {
         Sound('keypress');
     }
     const onSubmit = () =>{
-        console.log('Clicked')
         Sound('success');
         props.setIntro(false);
     }

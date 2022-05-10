@@ -82,3 +82,14 @@ body {
   font-size: 40px;
   padding: 20px;
 }
+
+.dialogueButton{
+  position: absolute;
+  top: 75%;
+  left: 90%;
+  font-size: 35px;
+}
+
+.dialogueButton:hover{
+  cursor: pointer;
+}
