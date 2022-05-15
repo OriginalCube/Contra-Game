@@ -3,8 +3,9 @@ import Typical from 'react-typical';
 
 const DialogueBox = (props) => {
   const [text, setText] = React.useState('');
-  const Tutorial = ["Hello Welcome to the world of browser...", "To start, you can use Arrow keys or WASD to move the character...",
-  " "];
+  const Tutorial = ["Hello Welcome to the world of browser...", "You are trap in this world...",
+  "The only way that you can get out is by solving the puzzles to get the code to unlock the browser...", 
+  "Now that you have an idea on what this is you may now start..." , "Good luck, you'll need it..."];
 
   React.useEffect(() => {
     dialogueText(props.mode, props.id);
@@ -24,9 +25,7 @@ const DialogueBox = (props) => {
 
   return (
     <div className='dialogueBox'>
-      <Typical steps={[text, 1000]}
-        className='dialogueText'
-        />
+      <p className='dialogueText'>{text}</p> 
       <button className='dialogueButton' onClick={()=>onClicked()}>Next</button>
     </div>
   )

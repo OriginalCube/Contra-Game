@@ -93,3 +93,74 @@ body {
 .dialogueButton:hover{
   cursor: pointer;
 }
+
+.setDifficulty{
+  position: relative;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.difficultyTitle{
+  font-size: 90px;
+}
+
+.difficultyModes{
+  position: relative;
+  top: -5%;
+}
+
+.difficultyModesButton{
+  position: relative;
+  font-size: 50px;
+  border: 2px solid white;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.difficultyModesButton:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.codeLock{
+  position: relative;
+  width: 75%;
+  height: 50%;
+  top: 25%;
+  margin: auto;
+}
+
+.codePlus, .codeMinus{
+  position: relative;
+  top: 5%;
+  border: 2px solid white;
+  width: 15%;
+  height: 8%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-left: 1.15%;
+}
+
+.codeMinus{
+  top: 23.4%;
+}
+
+.codeMinus:hover, .codePlus:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.codeNumbers{  
+  position: relative;
+  top: 14%;
+  font-size: 1200%;
+  width: 15%;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  margin-left: 1.4%;
+}
