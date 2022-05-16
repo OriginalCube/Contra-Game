@@ -125,6 +125,36 @@ body {
   color: black;
 }
 
+.gameNavigation{
+  position: absolute;
+  top: 1.5%;
+  width: 100%;
+  height: 8%;
+}
+
+.roomNavigation{
+  position: relative;
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+.roomKey{
+  position: relative;
+  border: 2px solid white;
+  width: 15%;
+  height: 55%;
+  margin: 0;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.roomKey:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 .codeLock{
   position: relative;
   width: 75%;
@@ -163,4 +193,16 @@ body {
   text-align: center;
   display: inline-block;
   margin-left: 1.4%;
+}
+
+.wordColor{
+  position: relative;
+  top: 8%;
+  height: 92%;
+}
+
+.wordQuestion{
+  padding-top: 2.5%;
+  text-align: center;
+  font-size: 250px;
 }
