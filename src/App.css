@@ -209,14 +209,12 @@ body {
   height: 25%;
 }
 
-.wordScore{
+.questionText{
   text-align: center;
   font-size: 35px;
-  border: 2px solid white;
 }
 
 .wordAnswer{
-  border: 2px solid white;
   height: 35%;
   margin: auto;
   width: 60%;
@@ -225,9 +223,15 @@ body {
 .wordBlock{
   position: relative;
   display: inline-block;
-  width: 25%;
+  width: 24.7%;
 }
 
 .wordText{
+  font-size: 75px;
   text-align: center;
+  background-color: transparent;
+}
+
+.wordBlock:hover{
+  cursor: pointer;
 }

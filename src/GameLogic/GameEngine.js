@@ -7,8 +7,6 @@ import WordColor from './WordColor'
 const GameEngine = (props) => {
   const [code, setCode] = React.useState([0,1,2,3,4,5]);
   const [navigation, setNavigation] = React.useState(['Code', 'Room 1', 'Room 2', 'Room 3']);
-  const [codeRoom, setCodeRoom] = React.useState(true);
-  React.useEffect(()=>{console.log(navigation)},[navigation])
   return (
     <div>
       <GameNavigation navigation={navigation} setNavigation={setNavigation}/>
