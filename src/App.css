@@ -202,7 +202,32 @@ body {
 }
 
 .wordQuestion{
+  position: relative;
   padding-top: 2.5%;
   text-align: center;
-  font-size: 250px;
+  font-size: 200px;
+  height: 25%;
+}
+
+.wordScore{
+  text-align: center;
+  font-size: 35px;
+  border: 2px solid white;
+}
+
+.wordAnswer{
+  border: 2px solid white;
+  height: 35%;
+  margin: auto;
+  width: 60%;
+}
+
+.wordBlock{
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.wordText{
+  text-align: center;
 }
